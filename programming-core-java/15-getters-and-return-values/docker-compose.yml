@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  15-getters-and-return-values:
+    container_name: 15-getters-and-return-values
+    build: 
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 15-getters-and-return-values

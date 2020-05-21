@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  12-multi-dimensional-arrays:
+    container_name: 12-multi-dimensional-arrays
+    build: 
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 12-multi-dimensional-arrays

@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  10-arrays:
+    container_name: 10-arrays
+    build: 
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 10-arrays

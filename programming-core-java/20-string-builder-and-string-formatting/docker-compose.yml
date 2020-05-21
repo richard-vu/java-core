@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  20-string-builder-and-string-formatting:
+    container_name: 20-string-builder-and-string-formatting
+    build: 
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 20-string-builder-and-string-formatting

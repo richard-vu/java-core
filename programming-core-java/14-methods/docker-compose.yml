@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  14-methods:
+    container_name: 14-methods
+    build: 
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 14-methods

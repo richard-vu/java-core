@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  08-do-while:
+    container_name: 08-do-while
+    build: 
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 08-do-while

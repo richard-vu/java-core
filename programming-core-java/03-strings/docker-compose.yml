@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  03-strings:
+    container_name: 03-strings
+    build: 
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 03-strings

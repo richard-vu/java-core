@@ -14,7 +14,7 @@ package com.richard.app;
  */
 public class Application {
  public static void main(String[] args) {
-  int   myNumber = 88;
+  int   myNumber = 99;
   short myShort  = 847;
   long  myLong   = 9797;
 
