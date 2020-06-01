@@ -1,0 +1,8 @@
+version: '3'
+services:
+  16-method-parameters:
+    container_name: 16-method-parameters
+    build:
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 16-method-parameters

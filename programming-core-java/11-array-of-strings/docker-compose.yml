@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  11-array-of-strings:
+    container_name: 11-array-of-strings
+    build: 
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 11-array-of-strings

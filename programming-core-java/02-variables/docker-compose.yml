@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  02-variables:
+    container_name: 02-variables
+    build: 
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 02-variables

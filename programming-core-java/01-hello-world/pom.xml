@@ -21,7 +21,7 @@
 
 	<build>
 
-		<finalName>01-hello-world</finalName>
+		<finalName>application</finalName>
 
 		<plugins>
 

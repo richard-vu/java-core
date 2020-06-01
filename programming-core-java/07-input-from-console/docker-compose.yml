@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  07-input-from-console:
+    container_name: 07-input-from-console
+    build: 
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 07-input-from-console

@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  19-static-and-final:
+    container_name: 19-static-and-final
+    build: 
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 19-static-and-final

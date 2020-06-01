@@ -1,0 +1,8 @@
+version: '3'
+services:
+  17-setters-and-this:
+    container_name: 17-setters-and-this
+    build:
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 17-setters-and-this

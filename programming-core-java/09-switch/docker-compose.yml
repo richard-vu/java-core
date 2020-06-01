@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  09-switch:
+    container_name: 09-switch
+    build: 
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 09-switch

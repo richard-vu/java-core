@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  13-classes-and-objects:
+    container_name: 13-classes-and-objects
+    build: 
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 13-classes-and-objects

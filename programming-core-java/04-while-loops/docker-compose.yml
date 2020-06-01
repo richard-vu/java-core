@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  04-while-loops:
+    container_name: 04-while-loops
+    build: 
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 04-while-loops

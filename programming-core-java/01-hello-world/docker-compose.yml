@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  01-helloworld:
+    container_name: 01-hello-world
+    build: 
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 01-hello-world

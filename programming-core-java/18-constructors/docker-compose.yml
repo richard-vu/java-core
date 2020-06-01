@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  18-constructors:
+    container_name: 18-constructors
+    build: 
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 18-constructors
