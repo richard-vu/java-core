@@ -60,6 +60,8 @@
 		<module>18-constructors</module>
 		<module>19-static-and-final</module>
 		<module>20-string-builder-and-string-formatting</module>
+		<module>21-the-to-string-method</module>
+		<module>22-inheritance</module>
 	</modules>
 	
 </project>
