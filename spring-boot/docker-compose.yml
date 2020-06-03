@@ -1,0 +1,35 @@
+version: "3"
+
+#NETWORK
+networks:
+  richard-network:
+    driver: bridge
+
+#VOLUMES
+
+#SERVICES
+services:
+  #WEB-SERVICE
+  spring-boot-sample:
+    container_name: spring-boot-sample
+    build:
+      dockerfile: Dockerfile
+      context: ./01-spring-boot-simple/
+    hostname: spring
+    restart: always
+    networks:
+      - richard-network
+    ports:
+      - "9090:9090"
+    depends_on:
+      - richarddbpostgres
+
+  richarddbpostgres:
+    image: postgres
+    ports:
+      - "5432:5432"
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=spring-boot-sample

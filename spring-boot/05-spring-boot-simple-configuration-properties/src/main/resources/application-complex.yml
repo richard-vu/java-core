@@ -1,0 +1,4 @@
+complex:
+  property:
+    noOfStudents: 10
+    schoolName: HighSchool

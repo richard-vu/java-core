@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  20-string-builder-and-string-formatting:
+    container_name: 22-inheritance
+    build: 
+      dockerfile: Dockerfile
+      context: ./
+    hostname: 22-inheritance
