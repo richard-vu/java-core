@@ -1,2 +1,2 @@
-# java-core
+# Java-core
 Java Core tutorial
